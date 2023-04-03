@@ -1,0 +1,191 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap);
+
+body {
+  font-family: 'Jua', Sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #eee9da;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  /* background-color: lemonchiffon; */
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  font-size: large;
+  font-weight: bold;
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+  margin: 0 60px;
+}
+
+nav a:hover:not(.current a) {
+  color: #93bfcf;
+  transition: 0.5s;
+}
+
+nav a {
+  color: black;
+}
+
+.current {
+  border-bottom: solid black;
+}
+
+header {
+  text-align: center;
+  background-color: #93bfcf;
+  color: black;
+  min-height: 70px;
+  box-shadow: 5px 5px 3px rgb(100, 100, 100);
+}
+
+#main {
+  margin-top: 55px;
+  min-height: 300px;
+  background: url("../img/main.jpg") no-repeat;
+  background-position: center;
+  background-size: 800px;
+  text-align: center;
+  text
+  color: white;
+  background-color: #bdcdd6;
+  box-shadow: 5px 5px 5px rgb(172, 172, 172);
+}
+
+#main h1 {
+  color: white;
+  text-shadow: 3px 3px 2px black;
+}
+
+.main {
+  margin: 20px auto;
+  width: 1000px;
+  border: solid #93bfcf;
+  background-color: white;
+  box-shadow: 5px 5px 10px 5px rgb(210, 210, 210);
+}
+
+.photo {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile {
+  padding: 15px;
+}
+
+.skill_section {
+  margin: 20px auto;
+  padding-bottom: 20px;
+  width: 60%;
+  height: 250px;
+  border: solid black;
+  border-radius: 40px 80px;
+  background-color: white;
+  box-shadow: 5px 5px black;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skill_ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.skill_ul li {
+  float: left;
+  border-radius: 50px;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  margin: 30px;
+  font-weight: bolder;
+  font-size: x-large;
+  text-shadow: 5px 5px 7px black;
+}
+
+.image {
+  width: 75px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.contact_section {
+  width: fit-content;
+  margin: 20px auto;
+
+}
+
+.home_section {
+  text-align: center;
+}
+
+.btn, .home {
+  display: inline-block;
+}
+
+i {
+  color: black;
+}
+
+i:hover {
+  color: rgb(86, 80, 90);
+}
+
+.github {
+  margin: 0;
+  padding: 0;
+}
+
+.github li {
+  list-style: none;
+  float: left;
+  font-weight: bold;
+}
+
+.project_section {
+  width: 80%;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  height: 300px;
+  border-radius: 40px;
+  background-color: white;
+  box-shadow: 5px 5px black;
+}
+
+.projects {
+  margin: 25px 0;
+  padding: none;
+  float: left;
+  margin-left: 40px;
+}
+
+.projects img {
+  border: solid black;
+}
+
+.projects p {
+  font-size: 1em;
+  margin-left: 20px;
+}
