@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap);
 
 body {
-  font-family: 'Jua', Sans-serif;
+  font-family: "Jua", Sans-serif;
   padding: 0;
   margin: 0;
   background-color: #eee9da;
@@ -15,7 +15,6 @@ a {
   width: 80%;
   margin: 0 auto;
   overflow: hidden;
-  /* background-color: lemonchiffon; */
 }
 
 nav ul {
@@ -59,7 +58,6 @@ header {
   background-position: center;
   background-size: 800px;
   text-align: center;
-  text
   color: white;
   background-color: #bdcdd6;
   box-shadow: 5px 5px 5px rgb(172, 172, 172);
@@ -134,14 +132,14 @@ footer {
 .contact_section {
   width: fit-content;
   margin: 20px auto;
-
 }
 
 .home_section {
   text-align: center;
 }
 
-.btn, .home {
+.btn,
+.home {
   display: inline-block;
 }
 
