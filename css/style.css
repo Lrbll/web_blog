@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap);
 
 body {
-  font-family: 'Jua', Sans-serif;
+  font-family: "Jua", Sans-serif;
   padding: 0;
   margin: 0;
   background-color: #eee9da;
@@ -15,7 +15,6 @@ a {
   width: 80%;
   margin: 0 auto;
   overflow: hidden;
-  /* background-color: lemonchiffon; */
 }
 
 nav ul {
@@ -32,7 +31,7 @@ nav li {
 }
 
 nav a:hover:not(.current a) {
-  color: #93bfcf;
+  color: #a6c1d1;
   transition: 0.5s;
 }
 
@@ -46,10 +45,10 @@ nav a {
 
 header {
   text-align: center;
-  background-color: #93bfcf;
-  color: black;
+  background-color: #bdcdd6;
+  color: #002c46;
   min-height: 70px;
-  box-shadow: 5px 5px 3px rgb(100, 100, 100);
+  box-shadow: 2px 2px 5px 2px rgb(92, 92, 92);
 }
 
 #main {
@@ -59,8 +58,6 @@ header {
   background-position: center;
   background-size: 800px;
   text-align: center;
-  text
-  color: white;
   background-color: #bdcdd6;
   box-shadow: 5px 5px 5px rgb(172, 172, 172);
 }
@@ -73,7 +70,7 @@ header {
 .main {
   margin: 20px auto;
   width: 1000px;
-  border: solid #93bfcf;
+  border: solid #bdcdd6;
   background-color: white;
   box-shadow: 5px 5px 10px 5px rgb(210, 210, 210);
 }
@@ -90,7 +87,7 @@ header {
 .skill_section {
   margin: 20px auto;
   padding-bottom: 20px;
-  width: 60%;
+  width: 80%;
   height: 250px;
   border: solid black;
   border-radius: 40px 80px;
@@ -105,17 +102,17 @@ header {
 .skill_ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
 }
 
 .skill_ul li {
   float: left;
   border-radius: 50px;
-  width: 300px;
+  width: 180px;
   height: 100px;
   text-align: center;
-  margin: 30px;
+  margin: 20px;
   font-weight: bolder;
   font-size: x-large;
   text-shadow: 5px 5px 7px black;
@@ -134,19 +131,19 @@ footer {
 .contact_section {
   width: fit-content;
   margin: 20px auto;
-
 }
 
 .home_section {
   text-align: center;
 }
 
-.btn, .home {
+.btn,
+.home {
   display: inline-block;
 }
 
 i {
-  color: black;
+  color: #002c46;
 }
 
 i:hover {
@@ -182,10 +179,23 @@ i:hover {
 }
 
 .projects img {
-  border: solid black;
+  width: 380px;
+  height: 230px;
+  margin-top: 15px;
 }
 
 .projects p {
   font-size: 1em;
   margin-left: 20px;
+}
+
+.projects a {
+  font-size: 1em;
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.projects a:hover {
+  color: rgb(80, 80, 80);
 }
